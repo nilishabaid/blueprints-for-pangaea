@@ -8,7 +8,21 @@
   }
 
 .header{
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+
+    position: absolute;
+    width: 491px;
+    height: 23px;
+    left: 895px;
+    top: 19px;
+    white-space: nowrap;
+
+    opacity: 0.3;
 }
 
 .headerImg{

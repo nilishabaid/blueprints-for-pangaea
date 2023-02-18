@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Header imgLink='./src/blueprints_logo.png'></Header>
+      <Header></Header>
     </div>
   );
 }
