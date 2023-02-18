@@ -1,0 +1,21 @@
+.headerBtn{
+    width: 120px;
+    height: 30px;
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    float: right;
+  }
+
+.header{
+    text-align: left;
+}
+
+.headerImg{
+    position: absolute;
+    width: 213.26px;
+    height: 63px;
+    left: 50px;
+    top: 19px;
+    object-fit: contain;
+}
