@@ -9,16 +9,13 @@
 
 .footer{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    background-color: #f6f8fD;
-    color: #fff;
-    padding: 20px;
-    font-size: 14px;
-    padding-left: 70px;
+    height: 337px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+
+    /* Water */
+    background: #F6F8FD;
 }
 
 .footer_left{
@@ -28,19 +25,51 @@
 }
 
 .footer_text-wrapper{
-    margin-bottom: 5px;
+    /* Get in touch:contact@b4pglobal.org */
+
+    position: absolute;
+    height: 39px;
+    left: 8.89%;
+    right: 80.69%;
+    bottom: 217px;
+
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 90.02%;
+    /* or 13px */
+
+    color: #000000;
 }
   
   
 .footer_text{
-    margin-bottom: 2px;
-    font-size: 14px;
+    margin-bottom: 0px;
+    font-size: 12px;
     color: black;
+}
+
+.footer_line {
+    position: absolute;
+    height: 5.96px;
+    left: 0%;
+    right: 0%;
+    bottom: -0.02px;
+
+    /* Blue Ribbon */
+    background: #0568FD;
 }
   
 .footer_social_wrapper{
-    display: flex;
-    align-items: center;
+    position: absolute;
+    left: 8.7%;
+    right: 29.17%;
+    top: 55%;
+    bottom: 8.33%;
+
+    /* border: 1.5px solid #000000; */
+
 }
   
 .footer_social{
@@ -50,12 +79,13 @@
 }
   
 .footer_logo{
+    
     position: absolute;
-    width: 200px;
-    height: 50px;
-    right: 130px;
-    bottom: 55px;
-    object-fit: contain;
+    height: 93px;
+    left: 72.36%;
+    right: 5.76%;
+    bottom: 150px;
+
 }
 
 .footer__bottom {
@@ -70,7 +100,7 @@
 .footer__bottom p {
     margin: 2;
     line-height: .5;
-    font-size: 7px;
+    font-size: 12px;
     color: silver;
   }
 

@@ -28,6 +28,9 @@ const Footer = () => {
         <p>©2020 Blueprint for Pangaea.</p>
         <p>All Rights Reserved.</p>
       </div>
+
+      <div className="footer_line">
+      </div>
     </footer>
     );
 }
