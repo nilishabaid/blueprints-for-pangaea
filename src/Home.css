@@ -1,0 +1,19 @@
+.headerBox{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1440px;
+    height: 539px;
+    left: 0px;
+    top: 0px;
+
+    /* Background */
+
+    background: #EEEEEE;
+    /* Border / Subtle */
+
+    border: 2px solid #AAAAAA;
+}
+
+
+
