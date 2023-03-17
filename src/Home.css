@@ -45,3 +45,72 @@
     color: #000000;
     
 }
+
+.statbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    
+    position: absolute;
+    width: 376px;
+    height: 608px;
+    left: 532px;
+    top: 877px;
+}
+
+.statcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 376px;
+    height: 136px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.stathead{
+    width: 358px;
+    height: 105px;
+    
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 105px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.stattext{
+    width: 376px;
+    height: 31px;
+    
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    flex-grow: 0;
+}

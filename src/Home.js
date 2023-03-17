@@ -8,6 +8,34 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
+
+      <div class="statbox">
+        <div class="statcol" style={{order:0}}>
+          <div class="stathead">
+            $4 million
+          </div>
+          <div class="stattext">
+            unused medical supplies reallocated
+          </div>
+        </div>
+        <div class="statcol" style={{order:1}}>
+          <div class="stathead">
+            X Pounds
+          </div>
+          <div class="stattext">
+            medical waste generated every year
+          </div>
+        </div>
+        <div class="statcol" style={{order:2}}>
+          <div class="stathead">
+            $200,000
+          </div>
+          <div class="stattext">
+            donated since 2014
+          </div>
+        </div>
+      </div>
+      
       <div class="flipBox">
         <p class="flipBoxHead">Our three core principles</p>
         <Flip fheader="SURPLUS" bheader="SURPLUS" flipurl='./homeflip1.png' flipleft={0} fliptop={183} btext="The US medical system throws away millions of pounds of completely unused medical supplies each year, contributing to a massive inefficiency."></Flip>
