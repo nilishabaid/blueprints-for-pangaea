@@ -16,4 +16,32 @@
 }
 
 
+.flipBox{
+    position: absolute;
+    width: 1066px;
+    height: 625px;
+    left: 187px;
+    top: 2655px;
+}
 
+.flipBoxHead{
+    position: absolute;
+    width: 432px;
+    height: 37px;
+    left: 12px;
+    top: 0px;
+    
+    /* Heading 2 */
+    
+    font-family: 'Argent CF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}

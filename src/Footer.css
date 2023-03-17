@@ -12,7 +12,7 @@
     height: 337px;
     left: 0%;
     right: 0%;
-    bottom: 0px;
+    top: 3937px; /*Changed this to fit to figma and with flipcards, don't know if it's correct*/
 
     /* Water */
     background: #F6F8FD;
