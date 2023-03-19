@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({text}) => {
+const PrimaryButton = ({text}) => {
   return (
     <button
       style={{
@@ -32,4 +32,4 @@ const Button = ({text}) => {
   );
 };
 
-export default Button;
+export default PrimaryButton;

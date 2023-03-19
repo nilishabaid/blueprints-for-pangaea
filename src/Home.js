@@ -4,6 +4,8 @@ import Flip from './Flip.js'
 import './Home.css'
 import Footer from './Footer.js'
 import './fonts.css'
+import PrimaryButton from './PrimaryButton.js'
+import SecondaryButton from './SecondaryButton.js'
 
 const Home = () => {
   return (
@@ -11,9 +13,12 @@ const Home = () => {
       <Header></Header>
       
       <div class="landing">
-        <div class="imagePlaceholder"></div>
-        <div class="landingHeader">Eliminate Medical Resource Inefficiencies</div>
+        <img class="imagePlaceholder" src="boxes.jpg"></img>
+        <div class="landingHeader">Eliminate Medical<br></br>Resource Inefficiencies</div>
         <div class="landingText">Donate to contribute to this cause.</div>
+        <div class="hButton">
+          <PrimaryButton></PrimaryButton>
+        </div>
       </div>
 
       <div class="statbox">
@@ -51,8 +56,7 @@ const Home = () => {
         surplus medical supplies from the US to hospitals overseas. 
         We reduce expenses and environmental footprints, while enabling affordable, 
         high-quality patient care.</p>
-        <p class="learnMore" style={{left: 892, top: 257}}>Learn More</p>
-        <hr class="underLine" style={{left: 892, top: 279}}></hr>
+        <p class="learnMore" style={{left: 892, top: 257}}><u>Learn More</u></p>
         <p class="arrowOne">&#8594;</p>
       </div>
 
@@ -61,8 +65,7 @@ const Home = () => {
         <p class="parText" style={{height: 96, left: 59, top: 109}}>Our mission is to reallocate unused medical 
         supplies from areas of excess to areas in need. By collecting and shipping supplies abroad, 
         we’re changing the fate of these precious medical resources and lives.</p>
-        <p class="learnMore" style={{left: 901, top: 240}}>Learn More</p>
-        <hr class="underLine" style={{left: 901, top: 262}}></hr>
+        <p class="learnMore" style={{left: 901, top: 240}}><u>Learn More</u></p>
         <p class="arrowTwo">&#8594;</p>
       </div>
 
@@ -72,6 +75,23 @@ const Home = () => {
         <Flip fheader="REDIRECTION" bheader="REDIRECTION" flipurl='./homeflip2.png' flipleft={370} fliptop={183} btext="We work with hospitals and medical suppliers in the US to redirect these supplies from landfills to hospitals and clinics in need."></Flip>
         <Flip fheader="IMPACT" bheader="IMPACT" flipurl='homeflip3.png' flipleft={740} fliptop={183} btext="For every dollar we receive, there is a tremendous social impact. Each $1 we spend can ship up to $50 of medical supplies and make a difference in hundreds of lives."></Flip>
       </div>
+
+      <div class="line">
+        
+      </div>
+
+      <div class="newsletterContainer">
+        <div class="newsletterBox">
+          <div class = "headerSection">
+          <p><b>Join Our Newsletter</b></p>
+          <p>Stay updated on what we are doing!</p>
+          </div>
+        </div>
+        <a href="https://us5.campaign-archive.com/?u=64619a21bb97ee0fa434694d8&id=2ad997a041"
+        class="editionBox">
+          Read The Latest Edititon Here</a>
+      </div>
+
       <Footer></Footer>
     </div>
   );

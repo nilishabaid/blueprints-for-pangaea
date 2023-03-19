@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({text}) => {
+const SecondaryButton = ({text}) => {
   return (
     <button
       style={{
@@ -31,4 +31,4 @@ const Button = ({text}) => {
   );
 };
 
-export default Button;
+export default SecondaryButton;
