@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Argent';
+    src: url('../fonts/argentcf-regular.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+font-family: 'GeneralSans-Variable';
+src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+        url('../fonts/GeneralSans-Variable.woff') format('woff'),
+        url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+        font-weight: 200 700;
+        font-display: swap;
+        font-style: normal;
+}
+
 .headerBox{
     box-sizing: border-box;
 
@@ -33,7 +50,7 @@
     
     /* Heading 2 */
     
-    font-family: 'Argent';
+    font-family: Argent;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -80,7 +97,7 @@
     width: 358px;
     height: 105px;
     
-    font-family: 'General Sans';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 600;
     font-size: 78px;
@@ -100,7 +117,7 @@
     width: 376px;
     height: 31px;
     
-    font-family: 'General Sans';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -141,7 +158,7 @@
 
     /* Heading 2 */
 
-    font-family: 'Argent CF';
+    font-family: Argent;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -156,7 +173,7 @@
 .parText{
     position: absolute;
     width: 983px;
-    font-family: 'General Sans';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -170,7 +187,7 @@
     width: 107px;
     height: 21px;
 
-    font-family: 'Argent CF';
+    font-family: Argent;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -226,7 +243,7 @@
     left: 157px;
     top: 123px;
 
-    font-family: 'General Sans';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -243,7 +260,7 @@
     left: 157px;
     top: 269px;
     
-    font-family: 'General Sans';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
