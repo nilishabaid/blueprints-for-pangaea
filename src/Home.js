@@ -14,7 +14,7 @@ const Home = () => {
         <div class="imagePlaceholder"></div>
         <div class="landingHeader">Eliminate Medical Resource Inefficiencies</div>
         <div class="landingText">Donate to contribute to this cause.</div>
-        <div class="">Donate</div>
+        <div class="hButton">Donate</div>
       </div>
 
       <div class="statbox">
