@@ -3,6 +3,7 @@ import Header from './Header.js';
 import Flip from './Flip.js'
 import './Home.css'
 import Footer from './Footer.js'
+import './fonts.css'
 
 const Home = () => {
   return (

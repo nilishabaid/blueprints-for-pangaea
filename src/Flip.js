@@ -1,5 +1,6 @@
 import React from 'react'
 import './Flip.css'
+import './fonts.css'
 
 function Flip(props){
   return (
