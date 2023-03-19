@@ -288,3 +288,25 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
     border: 2px solid #AAAAAA;
 }
+
+.hbutton{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 54px;
+gap: 10px;
+
+position: absolute;
+width: 177px;
+height: 55px;
+left: 157px;
+top: 319px;
+
+/* Blue Ribbon */
+
+background: #0568FD;
+border-radius: 3px;
+}
