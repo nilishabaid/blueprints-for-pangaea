@@ -5,7 +5,6 @@ import './Home.css'
 import Footer from './Footer.js'
 import './fonts.css'
 import PrimaryButton from './PrimaryButton.js'
-import SecondaryButton from './SecondaryButton.js'
 
 const Home = () => {
   return (
@@ -13,12 +12,13 @@ const Home = () => {
       <Header></Header>
       
       <div class="landing">
-        <img class="imagePlaceholder" src="boxes.jpg"></img>
+        <img class="imagePlaceholder" src="boxes.jpg" alt=""></img>
         <div class="landingHeader">Eliminate Medical<br></br>Resource Inefficiencies</div>
         <div class="landingText">Donate to contribute to this cause.</div>
         <div class="hButton">
-          <PrimaryButton></PrimaryButton>
+          <PrimaryButton text="Donate" width={177}></PrimaryButton>
         </div>
+        
       </div>
 
       <div class="statbox">
