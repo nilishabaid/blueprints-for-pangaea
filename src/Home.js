@@ -5,6 +5,8 @@ import './Home.css'
 import Footer from './Footer.js'
 import './fonts.css'
 import PrimaryButton from './PrimaryButton.js'
+import SecondaryButton from './SecondaryButton.js'
+import FadeInSection from './FadeIn.js'
 
 const Home = () => {
   return (
@@ -16,35 +18,40 @@ const Home = () => {
         <div class="landingHeader">Eliminate Medical<br></br>Resource Inefficiencies</div>
         <div class="landingText">Donate to contribute to this cause.</div>
         <div class="hButton">
-          <PrimaryButton text="Donate" width={177}></PrimaryButton>
+          <PrimaryButton text="Donate"></PrimaryButton> 
         </div>
-        
       </div>
-
+      
       <div class="statbox">
         <div class="statcol" style={{order:0}}>
-          <div class="stathead">
-            $4 million
-          </div>
-          <div class="stattext">
-            unused medical supplies reallocated
-          </div>
+          <FadeInSection>
+            <div class="stathead">
+              $4 million
+            </div>
+            <div class="stattext">
+              unused medical supplies reallocated
+            </div>
+          </FadeInSection>
         </div>
         <div class="statcol" style={{order:1}}>
-          <div class="stathead">
-            X Pounds
-          </div>
-          <div class="stattext">
-            medical waste generated every year
-          </div>
+          <FadeInSection>
+            <div class="stathead">
+              X Pounds
+            </div>
+            <div class="stattext">
+              medical waste generated every year
+            </div>
+          </FadeInSection>
         </div>
         <div class="statcol" style={{order:2}}>
-          <div class="stathead">
-            $200,000
-          </div>
-          <div class="stattext">
-            donated since 2014
-          </div>
+          <FadeInSection>
+            <div class="stathead">
+              $200,000
+            </div>
+            <div class="stattext">
+              donated since 2014
+            </div>
+          </FadeInSection>
         </div>
       </div>
       
