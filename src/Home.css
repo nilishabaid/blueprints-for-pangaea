@@ -333,7 +333,7 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     left: 90px;
     top: 72px;
 
-    font-family: 'Argent CF';
+    font-family: 'GeneralSans-light';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -422,7 +422,7 @@ gap: 10px;
 position: absolute;
 width: 206px;
 height: 55px;
-left: 122px;
+left: 91px;
 top: 3756px;
 
 /* Pure Black */
@@ -438,7 +438,7 @@ border-radius: 3px;
 width: 98px;
 height: 27px;
 
-font-family: 'General Sans';
+font-family: 'GeneralSans-Semibold';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
