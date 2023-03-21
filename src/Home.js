@@ -93,22 +93,17 @@ const Home = () => {
 
       <div class="newsletterContainer">
         <div class="newsletterBox">
-          <div class = "headerSection">
-          <p><b>Join Our Newsletter</b></p>
-          <p>Stay updated on what we are doing!</p>
-          
-          </div>
-          
+          <div class="headerTop"><p><b>Join Our Newsletter</b></p></div>  
+          <div class = "headerSection"><p>Stay updated on what we are doing!</p></div>
         </div>
-        <a href="https://us5.campaign-archive.com/?u=64619a21bb97ee0fa434694d8&id=2ad997a041"
-        class="editionBox">
-          Read The Latest Edititon Here</a>
+        <a href="https://us5.campaign-archive.com/?u=64619a21bb97ee0fa434694d8&id=2ad997a041"class="editionBox">Read The Latest Edititon Here</a>
+        
       </div>
+
       <div class="subscribeButton">
-        <div class="subscribeText">
-          <p>Subscribe</p>
-        </div>
+        <SecondaryButton text="Subscribe"></SecondaryButton>
       </div>
+      
 
       <Footer></Footer>
     </div>
