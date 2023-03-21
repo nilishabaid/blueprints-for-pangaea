@@ -405,3 +405,55 @@ top: 319px;
 background: #0568FD;
 border-radius: 3px;
 }
+
+.subscribeButton {
+/* secondary button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 54px;
+gap: 10px;
+
+position: absolute;
+width: 206px;
+height: 55px;
+left: 122px;
+top: 3756px;
+
+/* Pure Black */
+background: #000000;
+/* Pure Black */
+border: 1px solid #000000;
+border-radius: 3px;
+}
+
+.subscribeText{
+/* Content */
+
+width: 98px;
+height: 27px;
+
+font-family: 'General Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Pure White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
