@@ -8,11 +8,10 @@ import PrimaryButton from './PrimaryButton.js'
 import SecondaryButton from './SecondaryButton.js'
 import FadeInSection from './FadeIn.js'
 
-const Home = () => {
+function Home(props){
   return (
     <div>
-      <Header></Header>
-      
+      <Header setCurrentPage={props.setCurrentPage}></Header>
       <div class="landing">
         <img class="imagePlaceholder" src="boxes.jpg" alt=""></img>
         <div class="landingHeader">Eliminate Medical<br></br>Resource Inefficiencies</div>

@@ -2,9 +2,12 @@ import React from 'react';
 import './Header.css';
 import header_logo from './blueprints_logo.png';
 
-const Header = () => {
+function Header(props){
+    const execClick = () => {
+        props.setCurrentPage("exec");
+    };
     return (
-    <>
+    <div>
     <img className="headerImg" src={header_logo} alt=""></img>
     <h1 className = 'header'>
         <button className = 'headerBtn'>
@@ -13,7 +16,7 @@ const Header = () => {
         <button className = 'headerBtn'>
             Impact
         </button>
-        <button className = 'headerBtn'>
+        <button className = 'headerBtn' onClick={execClick}>
             Executive Team
         </button>
         <button className = 'headerBtn'>
@@ -23,7 +26,7 @@ const Header = () => {
             Our Chapters
         </button>
     </h1>
-    </>
+    </div>
     );
 };
 
