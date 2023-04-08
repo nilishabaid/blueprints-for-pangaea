@@ -6,11 +6,14 @@ function Header(props){
     const execClick = () => {
         props.setCurrentPage("exec");
     };
+    const homeClick = () => {
+        props.setCurrentPage("home");
+    };
     return (
     <div>
     <img className="headerImg" src={header_logo} alt=""></img>
-    <h1 className = 'header'>
-        <button className = 'headerBtn'>
+    <div className = 'header'>
+        <button className = 'headerBtn' onClick={homeClick}>
             Home
         </button>
         <button className = 'headerBtn'>
@@ -25,7 +28,7 @@ function Header(props){
         <button className = 'headerBtn'>
             Our Chapters
         </button>
-    </h1>
+    </div>
     </div>
     );
 };

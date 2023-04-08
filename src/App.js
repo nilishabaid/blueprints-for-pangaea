@@ -4,7 +4,7 @@ import ExecPage from './ExecPage'
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("exec");
+  const [currentPage, setCurrentPage] = useState("home");
 
   const renderPage = () => {
     switch (currentPage) {

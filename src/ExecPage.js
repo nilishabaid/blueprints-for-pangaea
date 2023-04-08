@@ -1,17 +1,14 @@
 import React from "react";
+import ExecBoard from './ExecBoard.js';
+import Header from './Header.js';
 
-function NewPage(props) {
-  const handleClick = () => {
-    props.setCurrentPage("home");
-  };
-
+function ExecPage(props) {
   return (
     <div>
-      <h1>New Page</h1>
-      <p>Welcome to the new page!</p>
-      <button onClick={handleClick}>Go to Home Page</button>
+      <Header setCurrentPage={props.setCurrentPage}></Header>
+      <ExecBoard></ExecBoard>
     </div>
   );
 }
 
-export default NewPage;
+export default ExecPage;
