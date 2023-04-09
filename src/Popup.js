@@ -6,23 +6,25 @@ function Popup(props) {
 
   return (
     <div>  
-      <div>
-        <button onClick={() => setIsOpen(true)}>
-          <img src={props.url} alt='executive'/>
-        </button>
+      <button onClick={() => setIsOpen(true)} className="openButton">
+        <img src={props.url} alt='executive' className="openButtonImg"/>
+      </button>
 
-        {isOpen && (
-          <div>
-            <div>
-              <h1>{props.execname}</h1>
-              <p>{props.execdes}</p>   
+      {isOpen && (
+        <div className="popupOverlay">
+          <div className="popupOpen">
+            <button onClick={() => setIsOpen(false)} className="closeButton">X</button> 
+            <img className="popupImage" src={props.url} alt="executive" />
+            <div className="popupText">
+              <div>
+                <h1 className="popupName">{props.execname}</h1>
+              </div>
+              <p className="popupTitle" style={{ textAlign: "left"}}>{props.execpos}</p>
+              <p className="popupDes" style={{ textAlign: "left"}}>{props.execdes}</p>
             </div>
-            <button onClick={() => setIsOpen(false)}>
-              Close Pop-up
-            </button>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>  
   );
 }
