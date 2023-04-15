@@ -16,9 +16,7 @@ function Home(props){
         <img class="imagePlaceholder" src="boxes.jpg" alt=""></img>
         <div class="landingHeader">Eliminate Medical<br></br>Resource Inefficiencies</div>
         <div class="landingText">Donate to contribute to this cause.</div>
-        <div class="hButton">
-          <PrimaryButton text="Donate"></PrimaryButton> 
-        </div>
+        <PrimaryButton text="Donate"></PrimaryButton>
       </div>
       
       <div class="statbox">
@@ -99,9 +97,7 @@ function Home(props){
         
       </div>
 
-      <div class="subscribeButton">
-        <SecondaryButton text="Subscribe"></SecondaryButton>
-      </div>
+      <SecondaryButton text="Subscribe"></SecondaryButton>
       
 
       <Footer></Footer>
