@@ -55,7 +55,7 @@ function Home(props){
       <div class="firstParBox">
         <FadeInSection>
           <p class="parHeader"  style={{width: 155}}>About Us</p>
-          <p class="parText" style={{height: 128, left: 38, top: 96}}>
+          <p class="parText" style={{height: 128, left: 98, top: 96}}>
           Blueprints For Pangaea (B4P) is a 501(c)(3) not-for-profit medical surplus recovery organization (MSRO)
           that addresses global healthcare inequalities by redistributing 
           surplus medical supplies from the US to hospitals overseas. 
@@ -69,7 +69,7 @@ function Home(props){
       <div class="secondParBox">
         <FadeInSection>
           <p class="parHeader"  style={{width: 202}}>Our Mission</p>
-          <p class="parText" style={{height: 96, left: 59, top: 109}}>Our mission is to reallocate unused medical 
+          <p class="parText" style={{height: 40, left: 95, top: 109}}>Our mission is to reallocate unused medical 
           supplies from areas of excess to areas in need. By collecting and shipping supplies abroad, 
           we’re changing the fate of these precious medical resources and lives.</p>
           <p class="learnMore" style={{left: 901, top: 240}}><u>Learn More</u></p>
@@ -79,9 +79,9 @@ function Home(props){
 
       <div class="flipBox">
         <p class="flipBoxHead">Our three core principles</p>
-        <Flip fheader="SURPLUS" bheader="SURPLUS" flipurl='./homeflip1.png' flipleft={0} fliptop={183} btext="The US medical system throws away millions of pounds of completely unused medical supplies each year, contributing to a massive inefficiency."></Flip>
-        <Flip fheader="REDIRECTION" bheader="REDIRECTION" flipurl='./homeflip2.png' flipleft={370} fliptop={183} btext="We work with hospitals and medical suppliers in the US to redirect these supplies from landfills to hospitals and clinics in need."></Flip>
-        <Flip fheader="IMPACT" bheader="IMPACT" flipurl='homeflip3.png' flipleft={740} fliptop={183} btext="For every dollar we receive, there is a tremendous social impact. Each $1 we spend can ship up to $50 of medical supplies and make a difference in hundreds of lives."></Flip>
+        <Flip fheader="SURPLUS" bheader="SURPLUS" flipurl='./homeflip1.png' flipleft={0} fliptop={167} btext="The US medical system throws away millions of pounds of completely unused medical supplies each year, contributing to a massive inefficiency."></Flip>
+        <Flip fheader="REDIRECTION" bheader="REDIRECTION" flipurl='./homeflip2.png' flipleft={396.5} fliptop={167} btext="We work with hospitals and medical suppliers in the US to redirect these supplies from landfills to hospitals and clinics in need."></Flip>
+        <Flip fheader="IMPACT" bheader="IMPACT" flipurl='homeflip3.png' flipleft={793} fliptop={167} btext="For every dollar we receive, there is a tremendous social impact. Each $1 we spend can ship up to $50 of medical supplies and make a difference in hundreds of lives."></Flip>
       </div>
 
       <div class="line">
@@ -97,10 +97,10 @@ function Home(props){
         
       </div>
 
-      <SecondaryButton text="Subscribe"></SecondaryButton>
+      <SecondaryButton text="Subscribe" givenstyle={{left: '163px', top: '2939px'}}></SecondaryButton>
       
 
-      <Footer></Footer>
+      <Footer givenstyle={{top: '3120px'}}></Footer>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import './SecondaryButton.css'
 
-const SecondaryButton = ({text}) => {
+function SecondaryButton(props){
   return (
-    <button class="secondaryButton">
-      {text}
+    <button class="secondaryButton" style={props.givenstyle}>
+      {props.text}
     </button>
   );
 };

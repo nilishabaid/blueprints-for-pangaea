@@ -35,17 +35,17 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
 .flipBox{
     position: absolute;
-    width: 1066px;
-    height: 625px;
-    left: 187px;
-    top: 2655px;
+    width: 1119px;
+    height: 544px;
+    left: 160px;
+    top: 1943px;
 }
 
 .flipBoxHead{
     position: absolute;
     width: 432px;
     height: 37px;
-    left: 12px;
+    left: 0px;
     top: 0px;
     
     /* Heading 2 */
@@ -65,16 +65,16 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
 .statbox{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 100px;
+    gap: 146px;
     
     position: absolute;
-    width: 376px;
-    height: 608px;
-    left: 532px;
-    top: 877px;
+    width: 1120px;
+    height: 101px;
+    left: 160px;
+    top: 844px;
 }
 
 .statcol{
@@ -83,8 +83,8 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     align-items: center;
     padding: 0px;
 
-    width: 376px;
-    height: 136px;
+    width: 276px;
+    height: 101px;
 
 
     /* Inside auto layout */
@@ -94,14 +94,13 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 }
 
 .stathead{
-    width: 358px;
-    height: 105px;
-    
+    width: 376px;
+    height: 81px;
     font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 600;
-    font-size: 78px;
-    line-height: 105px;
+    font-size: 60px;
+    line-height: 81px;
     text-align: center;
     
     color: #000000;
@@ -115,13 +114,13 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
 .stattext{
     width: 376px;
-    height: 31px;
+    height: 20px;
     
     font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 31px;
+    font-size: 15px;
+    line-height: 20px;
     /* identical to box height */
     
     text-align: center;
@@ -137,8 +136,8 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     position: absolute;
     width: 1021px;
     height: 279px;
-    left: 211px;
-    top: 1760px;
+    left: 160px;
+    top: 1110px;
 }
 
 .secondParBox{
@@ -146,12 +145,13 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     position: absolute;
     width: 1042px;
     height: 262px;
-    left: 199px;
-    top: 2151px;
+    left: 160px;
+    top: 1501px;
 }
 
 .parHeader{
     position: absolute;
+    width: 155px;
     height: 37px;
     left: 0px;
     top: 0px;
@@ -176,7 +176,7 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 32px;
 
     color: #000000;
@@ -296,7 +296,7 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     width: 1440px;
     height: 783.02px;
     left: 0px;
-    top: 3491px;
+    top: 2674px;
 }
 
 .newsletterBox {
@@ -327,17 +327,16 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     /* Join our Newsletter Stay updated on what we are doing! */
     
     position: absolute;
-    width: 934px;
-    height: 81px;
-    left: 90px;
-    top: 125px;
+    width: 500px;
+    height: 38px;
+    left: 163px;
+    top: 90px;
     
-    font-family: 'GeneralSans';
+    font-family: Argent;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 33px;
-    letter-spacing: 0.05em;
+    font-size: 37px;
+    line-height: 38px;
     text-transform: capitalize;
     
     /* Pure Black */
@@ -348,17 +347,16 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
     /* Join our Newsletter Stay updated on what we are doing! */
 
     position: absolute;
-    width: 934px;
-    height: 81px;
-    left: 90px;
-    top: 72px;
+    width: 350px;
+    height: 20px;
+    left: 163px;
+    top: 164px;
 
-    font-family: 'GeneralSans-light';
+    font-family: GeneralSans-Variable;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 33px;
-    letter-spacing: 0.05em;
+    font-size: 15px;
+    line-height: 20px;
     text-transform: capitalize;
 
     color: #000000;
@@ -383,16 +381,16 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
 .editionBox{
     position: absolute;
-    width: 437px;
-    height: 33px;
-    left: 881px;
+    width: 342px;
+    height: 26px;
+    left: 940px;
     top: 206px;
     
     font-family: Argent;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 33px;
+    font-size: 25px;
+    line-height: 26px;
     /* identical to box height */
     
     letter-spacing: 0.05em;

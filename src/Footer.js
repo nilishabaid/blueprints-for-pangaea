@@ -5,9 +5,9 @@ import fb_icon from './facebook icon.png';
 import logoImg from './blueprints_logo.png';
 
 
-const Footer = () => {
+function Footer(props){
     return (
-    <footer className="footer">
+    <footer className="footer" style={props.givenstyle}>
         <div className="footer_left">
             <div className="footer_text-wrapper">
                 <p className="footer_text">Get in touch:</p>
@@ -17,8 +17,8 @@ const Footer = () => {
             </div>
 
             <div className="footer_social_wrapper">
-                <img className="footer_social" src={ig_icon} alt=""></img>
                 <img className="footer_social" src={fb_icon} alt=""></img>
+                <img className="footer_social" src={ig_icon} alt=""></img>
             </div>
       </div>
 
