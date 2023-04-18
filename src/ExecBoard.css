@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'Argent';
+  src: url('../fonts/argentcf-regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'GeneralSans-Variable';
+src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+      url('../fonts/GeneralSans-Variable.woff') format('woff'),
+      url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+      font-weight: 200 700;
+      font-display: swap;
+      font-style: normal;
+}
+
 .execContainer {
   margin-top: 166px;
 }
@@ -29,7 +46,7 @@
 }
 
 .executive-member h2 {
-  font-family: 'General Sans';
+  font-family: GeneralSans-Variable;
   flex-basis: calc(16.666% - 330px);
   text-align: center;
   margin-bottom: 5px;
@@ -41,7 +58,7 @@
 }
 
 .executive-member p {
-  font-family: 'General Sans';
+  font-family: GeneralSans-Variable;
   font-style: normal;
   flex-basis: calc(16.666% - 330px);
   text-align: center;
@@ -57,3 +74,4 @@
   order: 0;
   flex-grow: 0;
 }
+
