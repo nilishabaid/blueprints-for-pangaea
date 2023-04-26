@@ -8,7 +8,6 @@ function ExecPage(props) {
     <div>
       <Header setCurrentPage={props.setCurrentPage}></Header>
       <ExecBoard></ExecBoard>
-      <Footer></Footer>
     </div>
   );
 }

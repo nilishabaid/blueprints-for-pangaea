@@ -1,6 +1,7 @@
 import React from 'react';
 import './ExecBoard.css';
 import Popup from './Popup.js'
+import Footer from './Footer.js'
 
 function ExecutiveRow(props) {
   return (
@@ -31,6 +32,7 @@ function ExecutiveRow(props) {
 
 function ExecutiveBoard() {
   return (
+    <div>
     <div className="execContainer">
       <div className="exec2Container">
         <h1>Meet Our Executive Team</h1>
@@ -159,9 +161,102 @@ function ExecutiveBoard() {
             title4="Analyst"
             des4= "Michelle Lee is a junior at the University of Michigan pursuing a degree in Neuroscience with a minor in Business. She is interested in learning more about the overlap between sustainability, business, and medicine in order to make healthcare more accessible and affordable to all. In the future, Michelle hopes to become a physician and intends to continue eliminating health inequities from within the healthcare system."
           />
+          <ExecutiveRow
+            img1="Shruthi_Sunilkumar.webp"
+            name1="Shruthi Sunilkumar"
+            title1="Analyst"
+            des1="Shruthi Sunilkumar is a freshman at the University of Michigan pursuing a degree in Business with a minor in Biology. After completing her BBA, she hopes to attend medical school and become a physician. Her goal is to use business acumen and impact healthcare to ensure that medicine provides high quality care at affordable prices."
+            img2="Blueprints.webp"
+            name2="Charan Talwar"
+            title2="Analyst"
+            des2 = "Charan Talwar is a junior at the University of Michigan where he is studying Biopsychology, Cognition, and Neuroscience with a minor in Food. He is interested in the holistic mind-body connection and using lifestyle strategies to combat preventable diseases before they occur. Charan plans to attend medical school and become a clinician while combating healthcare disparities from within the field."
+            img3= "Blueprints.webp"
+            name3= "Jason Zhang"
+            title3="Analyst"
+            des3 = "Jason Zhang is a junior at the University of Michigan majoring in Molecular, Cellular, and Developmental Biology and minoring in Applied Statistics. He is interested in the healthcare industry, and he joined Blueprints for Pangaea to help increase the efficacy of medical technology by improving its accessibility. Jason plans to pursue a career as a physician-scientist and work in both clinical and laboratory settings."
+            img4="Blueprints.webp"
+            name4="Celeste Kettaneh"
+            title4="Analyst"
+            des4= "Celeste Kettaneh is a sophomore at the University of Michigan pursuing a degree in Community & Global Public Health. She is interested in health equity, social justice, and minority health. In the future, Celeste hopes to be a physician, providing culturally-tailored care to communities of color and dismantling the racist and inequitable structures in medicine."
+          />
+          <ExecutiveRow
+            img1="Blueprints.webp"
+            name1="Ishan Patel"
+            title1="Analyst"
+            des1="Ishan Patel is a freshman studying Business Administration with an intended dual degree in Information. He is interested in combining business and technology with nonprofit work and social impact. In the future, he hopes to pursue a career in a company that creates products that can positively impact the healthcare industry or make healthcare more accessible."
+            img2="Blueprints.webp"
+            name2="Mariam Khan"
+            title2="Analyst"
+            des2 = "Mariam Khan is a sophomore at the University of Michigan studying Political Science on a pre-law track. She is interested in analyzing institutions that lack equity in areas like education, housing, and health care. In the future, Mariam plans to attend law school where she will pursue a career as a civil rights attorney."
+            img3= "Blueprints.webp"
+            name3= "Omar Hassan"
+            title3="Analyst"
+            des3 = "I joined Blueprints because it has given me the outstanding opportunity to give back to those in need. I hope to become a physician in the future, and the idea of helping those in need has been a driving force for that career path. I’m very excited to make a major impact in Blueprints and work in all the projects to come!"
+            img4="Blueprints.webp"
+            name4="Michael Strauss"
+            title4="Analyst"
+            des4= "Michael Strauss is a sophomore studying business with a minor in applied statistics. He joined blueprints to experience the intersection of social impact and business in a logistics-heavy setting. After graduation, Mike plans to work for a social impact private equity or venture capital fund."
+          />
+          <ExecutiveRow
+            img1="Blueprints.webp"
+            name1="Anne Zhang"
+            title1="Analyst"
+            des1="Anne Zhang is a senior at the University of Michigan pursuing a degree in Public Health with a minor in Gender and Health Studies. She is interested in how education can improve global health, promote health equity, and increase one's sense of agency. In the future, she hopes to make an impact by becoming a physician that is empathetic, compassionate, and understanding."
+            img2="Blueprints.webp"
+            name2="Aayush Unadkat"
+            title2="Analyst"
+            des2 = "Aayush is a senior studying neuroscience with a minor in entrepreneurship. He is passionate about finding holistic solutions to medical care and reducing healthcare inequity at the individual level. After graduation he hopes to attend medical school and use his experiences and knowledge gained at Blueprints to help tackle medical accessibility issues as a physician."
+            img3= "Sinit_Lijam.webp"
+            name3= "Sinit Lijam"
+            title3="Analyst"
+            des3 = "Sinit Lijam is a sophomore at the University of Michigan studying Neuroscience. She is interested in the diminishment of racial and socioeconomic health disparities, as well as the intersection between health and sustainability. In the future, Sinit hopes to become a Physician Associate and aid in providing access to quality and affordable healthcare while working to combat these disparities."
+            img4="Blueprints.webp"
+            name4="Nathan Kovacs"
+            title4="Analyst"
+            des4= "Nathan Kovacs is a freshman studying computer science. He is interested in learning more about problem solving within the intersection of health and technology. In the future, he hopes to eventually work at a healthcare consulting company focused on social impact and expanding healthcare access in areas where it is not as present."
+          />
+          <ExecutiveRow
+            img1="Blueprints.webp"
+            name1="Isabella Sperry"
+            title1="Intern"
+            des1="Isabella Sperry is a sophomore studying Biology, Health, & Society and Medical Anthropology. She is interested in exploring new countries to expand our impact into. In the future, she hopes to pursue a career in medicine with a strong foundational knowledge of health inequities and how to best combat them in the field"
+            img2="Stephanie_Chan.webp"
+            name2="Stephanie Chan"
+            title2="Intern"
+            des2 = "Stephanie is a senior at the University of Michigan majoring in Biochemistry and minoring in Business. She is passionate in looking for ways to eliminate disparities in healthcare and help communities in-need around the world. She hopes to be able to apply her knowledge and passion, as a future physician, to help combat these on-going dilemmas with dedication and compassion."
+            img3= "Blueprints.webp"
+            name3= "Michael Magee"
+            title3="Intern"
+            des3 = "Michael Magee is a second-year undergraduate student at the University of Michigan - Ann Arbor with an intended double major in Biomolecular Science and Public Health on the Pre-Health professional track. He aspires to bridge the gap between medicine and business and work towards making healthcare more accessible for those living in underserved communities. He plans to use his experience in Blueprints to expand on his interests while concurrently producing tangible solutions for those affected by health inequity."
+            img4="Blueprints.webp"
+            name4="Sara Chae"
+            title4="Intern"
+            des4= "Sara is a sophomore studying Biology, Health and Society with a minor in UX Design. She joined Blueprints for Pangaea in hopes to bridge the gap between receiving high-quality healthcare in low-income areas. She is excited to be a part of Blueprints' initiative of eliminating healthcare disparities through the reallocation of unused medical supplies to underserved communities that need them. In the future, Sara plans to apply the skills she learns from Blueprints to her career as a physician."
+          />
+          <ExecutiveRow
+            img1="Sanya_Chawla.webp"
+            name1="Sanya Chawla"
+            title1="Intern"
+            des1="Sanya is a freshman studying computer science, and she joined Blueprints for Pangaea to be a part of a community of passionate individuals who help make a difference in the world. Between local and international efforts, she is inspired by the initiative behind Blueprints and wants to reduce the global health disparity with her peers. Sanya hopes to pursue an intersection between computer science and healthcare professionally and help increase access to technology in developing communities, especially in those that don’t currently have the proper health resources they deserve."
+            img2="Blueprints.webp"
+            name2="Stephanie Chan"
+            title2="Intern"
+            des2 = "Stephanie is a senior at the University of Michigan majoring in Biochemistry and minoring in Business. She is passionate in looking for ways to eliminate disparities in healthcare and help communities in-need around the world. She hopes to be able to apply her knowledge and passion, as a future physician, to help combat these on-going dilemmas with dedication and compassion."
+            img3= "Blueprints.webp"
+            name3= "Michael Magee"
+            title3="Intern"
+            des3 = "Michael Magee is a second-year undergraduate student at the University of Michigan - Ann Arbor with an intended double major in Biomolecular Science and Public Health on the Pre-Health professional track. He aspires to bridge the gap between medicine and business and work towards making healthcare more accessible for those living in underserved communities. He plans to use his experience in Blueprints to expand on his interests while concurrently producing tangible solutions for those affected by health inequity."
+            img4="Blueprints.webp"
+            name4="Sara Chae"
+            title4="Intern"
+            des4= "Sara is a sophomore studying Biology, Health and Society with a minor in UX Design. She joined Blueprints for Pangaea in hopes to bridge the gap between receiving high-quality healthcare in low-income areas. She is excited to be a part of Blueprints' initiative of eliminating healthcare disparities through the reallocation of unused medical supplies to underserved communities that need them. In the future, Sara plans to apply the skills she learns from Blueprints to her career as a physician."
+          />
         </div>
       </div>
     </div>
+    <Footer></Footer>
+    </div>
+
   );
 }
 

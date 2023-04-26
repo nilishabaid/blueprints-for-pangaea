@@ -16,12 +16,17 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 }
 
 .execContainer {
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
   margin-top: 166px;
+  margin-bottom: 10%
 }
 
 .exec2Container {
   display: flex;
   flex-direction: column;
+  /* overflow-y: auto; */
   align-items: center;
 }
 
@@ -68,6 +73,7 @@ src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 
 .executive-member img {
   flex-basis: calc(16.666% - 330px);
+  object-fit: cover;
   width: 200px;
   height: 200px;
   flex: none;
